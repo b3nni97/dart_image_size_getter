@@ -5,13 +5,12 @@ homepage: https://github.com/CaiJingLong/dart_image_size_getter/tree/master/imag
 # publish_to: https://pub.dev/
 
 environment:
-  sdk: ">=2.16.2 <3.0.0"
+  sdk: ">=3.0.0-0 <4.0.0"
 
 dependencies:
   http: ^0.13.4
-  # image_size_getter:
-  #   path: ../library
-  image_size_getter: ^2.0.0
+  image_size_getter:
+    path: ../library
 #   path: ^1.8.0
 
 dev_dependencies:

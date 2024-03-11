@@ -5,10 +5,11 @@ homepage: https://github.com/CaiJingLong/dart_image_size_getter
 repository: https://github.com/CaiJingLong/dart_image_size_getter
 
 environment:
-  sdk: ">=2.12.0 <3.0.0"
+  sdk: ">=3.0.0-0 <4.0.0"
 
 dependencies:
-  image_size_getter: ^2.0.0
+  image_size_getter:
+    path: ../library
   bmff: ^1.4.2
 
 dev_dependencies:
